@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export class MetaApis {
-    backendUrl = 'https://social-media-integration.onrender.com'
+    backendUrl = 'https://socials.bluecast.host/api/v1'
     intializeFacebookOauth = async () => {
         try {
             // @ts-ignore

@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export class AuthApis {
-    backendUrl = 'https://social-media-integration.onrender.com'
+    backendUrl = 'https://socials.bluecast.host/api/v1'
     // login
     login = async (userData: { email: string, password: string, role: string }) => {
         try {
